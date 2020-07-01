@@ -3,6 +3,11 @@
 Este paquete está destinado para la integración de una manera más rápida y sencilla de la pasarela de pagos de Alignet.
 
 ## Instalación
+Cómo instalardo usando Composer:
+```
+composer require fishercom/alignet-payme
+```
+
 Registra el Service Provider de esta aplicación en `config/app.php`
 ```php
     'providers' => [
