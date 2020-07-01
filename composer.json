@@ -1,0 +1,19 @@
+{
+    "name": "fishercom/alignet-payme",
+    "description": "Add Alignet Payme method of payment",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Fischer Tirado",
+            "email": "fishdev@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "alignet-payme\\": "src/"
+        }
+    },
+    "require": {
+        "illuminate/support": "5.5.*|5.6.*|5.7.*|5.8.*|^6.0|^7.0"
+    }
+}
